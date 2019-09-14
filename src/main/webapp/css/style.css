@@ -1,0 +1,175 @@
+/**
+ * 版权所有 (c) 2018，《自制AI图像搜索引擎》作者。
+
+ * 您可以下载和使用该软件。但它仅供个人学习和研究使用，禁止任何商业用途。
+
+ * 您必须在此软件的所有副本（包括任何修改或衍生版本）中保留此许可证文件，且不能对其有任何修改。
+
+ * 欢迎购买《自制AI图像搜索引擎》——一本全面介绍AI图像搜索引擎原理与实现的书。如有任何意见或建议，请发送邮件至imgsearch@126.com。
+ */
+@charset "utf-8";
+
+.hidden {
+    display: none;
+}
+
+.logo_box {
+    width: 360px;
+    height: 130px;
+    margin: 60px auto;
+}
+
+.search_box {
+    position: relative;
+    width: 646px;
+    margin: 0 auto;
+    padding-top: 2px;
+}
+
+.search_input {
+    position: absolute;
+    width: 540px;
+    height: 42px;
+    top: 0;
+    left: 0;
+    border: 0;
+    outline: 0;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #222;
+    padding: 0 0 0 10px;
+    border: 1px solid #ccc;
+}
+
+.search_btn {
+    position: absolute;
+    width: 106px;
+    height: 42px;
+    top: 0;
+    right: 1px;
+    padding: 0;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;  
+    font: 700 16px/41px simsun;
+    text-align: center;
+    background: #db0000;
+}
+
+.search_btn:hover {
+    background: #c90000;
+}
+
+.img_camera {
+    position: absolute;
+    width: 20px;
+    height: 16px;
+    top: 13px;
+    left: 510px;
+    cursor: pointer; 
+    background: url(../img/camera.png) no-repeat;
+}
+
+.img_preview {
+    position: absolute;
+    width: 90px;
+    height: 32px;
+    top: 5px;
+    left: 8px;
+}
+
+.img_camera_mouseenter {
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    top: 50px;
+    left: 450px;   
+    border: 1px solid #ccc;
+    background: #fff;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    color: #666;
+    display: none;
+}
+
+.img_camera_mouseenter_arrow {
+    position: absolute;
+    width: 7px;
+    height: 4px;
+    top: 47px;
+    left: 516px;   
+    background: url(../img/arrow.png) no-repeat;
+    display: none;
+}
+
+.back_btn {
+    float:right;
+}
+
+.title_search .title_simi {
+    font-size: 16px;
+    color:black;
+}
+
+.title_search .title_simi span {
+    line-height: 46px
+}
+
+.search_img {
+    width:260px;
+    height: 260px;
+    float:left;
+}
+
+.search_img img {
+    width:auto;
+    height:auto;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid black;
+}
+
+.line {
+    width:auto;
+    border-bottom: 1px dashed black;
+    clear: both;
+    padding-top: 30px;
+}
+
+.simi {
+    width:1200px;
+    position:relative;
+    clear:both;
+}
+
+.search {
+    padding: 10px;
+}
+
+.simi {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.result {
+    padding: 10px;
+    
+}
+
+.simi_img {
+    width: 260px;
+    height: 260px;
+    float:left; 
+}
+
+.simi_img img {
+    width:auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid black;
+}
