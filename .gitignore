@@ -33,3 +33,6 @@ src/main/webapp/image/*
 .settings/org.eclipse.jdt.apt.core.prefs
 .settings/org.eclipse.m2e.core.prefs
 .vscode
+ImageSearch.iml
+.idea
+.classpath

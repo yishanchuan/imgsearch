@@ -6,15 +6,15 @@
 
   <groupId>com.ai.deepsearch</groupId>
   <artifactId>ImageSearch</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>war</packaging>
 
   <name>ImageSearch</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <!-- Change the nd4j.backend property to nd4j-cuda-8.0-platform to use CUDA GPUs -->
     <nd4j.backend>nd4j-native-platform</nd4j.backend>
     <!--<nd4j.backend>nd4j-cuda-8.0-platform</nd4j.backend>-->
@@ -93,7 +93,10 @@
     <dependency>
       <groupId>be.tarsos</groupId>
       <artifactId>TarsosLSH</artifactId>
-      <version>${tarsosLSH.version}</version>
+<!--      <version>${tarsosLSH.version}</version>-->
+      <scope>system</scope>
+      <version>0.9</version>
+      <systemPath>D:\project\imgsearch\src\main\resources\lib\TarsosLSH-0.9.jar</systemPath>
     </dependency>
   </dependencies>
 
